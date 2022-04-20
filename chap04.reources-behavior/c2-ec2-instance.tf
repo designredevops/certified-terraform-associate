@@ -4,6 +4,6 @@ resource "aws_instance" "designre-ec2-instance" {
   instance_type = "t2.micro"
   tags = {
     "Name" = "web"
-
+     "newtag" = "designre-new-tag"
   }
 }
